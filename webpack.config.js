@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 
 module.exports = {
-    entry: ['react-hot-loader/patch', './src/index.js'] ,
+    entry: ['react-hot-loader/patch', './src/index.js'],
 
     output: {
         path: __dirname + '/public/',
@@ -16,7 +16,7 @@ module.exports = {
         contentBase: __dirname + '/public/',
     },
 
-    module:{
+    module: {
         loaders: [
             {
                 test: /.js$/,
